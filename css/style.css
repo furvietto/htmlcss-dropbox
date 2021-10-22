@@ -7,6 +7,7 @@
 html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -53,6 +54,10 @@ html {
 
 .mar-l img {
     vertical-align: sub;
+}
+
+.marg-l-inp {
+    margin-left: 30px;
 }
 
 /* display */
@@ -156,3 +161,20 @@ header .jumbo-container .float-l img {
     width: 70%;
     margin: 100px auto 0px
 }
+
+.container-main h2 {
+    font-size: 2.7em;
+}
+
+ #inp-dx {
+     margin-left: 30px;
+ }
+
+ input {
+     margin: 40px 0 20px 0;
+     height: 3em;
+     width: 20px;
+     vertical-align: -90%;
+ }
+
+ 
