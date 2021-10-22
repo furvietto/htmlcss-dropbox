@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -12,32 +19,69 @@
 <body>
 
     <!-- nav -->
-    <nav>
-         <div class="float-l width-35">
-             <img class="float-l" src="img/logo-small.png" alt="logo-dropbox">
-             <ul>
-                 <li class="float-l">Perchè Dropbox?</li>
-                 <li>Funzioni</li>
-                 <li>Piani e Prezzi</li>
-             </ul>
-         </div>   
+    <nav class="clearfix">
+
+        <!-- float left -->
+        <div class="float-l width-36">
+            <a class="mar-l dib" href="#header"><img src="img/logo-small.png" alt="logo-dropbox"></a>
+            <ul class="dib">
+                <li><a href=""> Perchè Dropbox?</a></li>
+                <li><a href="">Funzioni</a> </li>
+                <li><a href=""> Piani e Prezzi</a></li>
+            </ul>
+        </div>
+        <!-- /float-left -->
+
+        <!-- float right -->
+        <div class="float-r width-36">
+            <ul>
+                <li><a href="">Supporto</a> </li>
+                <li><a href="">Contatta l'ufficio vendite</a></li>
+                <li><a href=""> Accedi</a></li>
+                <li><button class="button" href="">Inizia</button></li>
+            </ul>
+        </div>
+        <!-- /float right -->
     </nav>
     <!-- /nav -->
 
     <!-- header -->
-    <header>
+    <header id="header">
+        <div class="hide-container"></div>
+        <div class="jumbo-container clearfix ">
+            <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
 
+            <div class="col-sx-hd float-l width-40">
+                <p> Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
+                    Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per
+                    ottimizzare il flusso di lavoro esistente.</p>
+
+                <button class="button mar-button-hd">Inizia la tua prova gratuita
+                </button>
+                <div>
+                    Annulla in qualsiasi momento
+                </div>
+                <div>
+                   <a href="#footer"><i class="fas fa-arrow-down"></i></a> 
+                </div>              
+            </div>
+            <div class="float-l width-60">
+                <img src="img/jumbo.png" alt="logo jumbo">
+            </div>
+        </div>
     </header>
     <!-- /header -->
 
     <!-- main -->
     <main>
-
+        <div class="container-main">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab ut tempore porro sed consequuntur ratione! Eligendi aliquam nemo commodi consequuntur omnis laborum consequatur dolor nulla dolore, adipisci ab inventore.
+        </div>
     </main>
     <!-- /main -->
 
     <!-- footer -->
-    <footer>
+    <footer id="footer">
 
     </footer>
     <!-- /footer -->
