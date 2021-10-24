@@ -53,6 +53,10 @@ html {
     width: 60%;
 }
 
+#width-60 {
+    width: 60%;
+}
+
 .width-70 {
     width: 70%;
 }
@@ -122,6 +126,14 @@ html {
 
 .pad-l-30 {
     padding-right: 30px;
+}
+
+.pad-int-10 {
+    padding:10px
+}
+
+.pad-int-30 {
+    padding:40px
 }
 
 /* img */
@@ -295,6 +307,11 @@ h4 {
         color: #498eff;
     }
 
+    .c-white {
+        color: white;
+    }
+
+
     /* background-color */
 
     .bc-lightgreen {
@@ -319,6 +336,22 @@ h4 {
 
     .bc-darkred {
         background-color: #d5001f
+        ;
+    }
+
+    .bc-azure {
+        background-color: #b4d0e7
+        ;
+    }
+
+    .bc-darkblue {
+        background-color:#0d2481
+        ;
+    }
+
+    .bc-yellow {
+        background-color: #ffd830
+
         ;
     }
 
@@ -395,5 +428,26 @@ h4 {
 
     .square {
         width: 50%;
-        height: 200px;
+        height: 220px;
+    }
+
+    .square-int {
+        background-color: #a2d39b
+        ;
+        width: 100%;
+        height: 100%;
+    }
+
+    .square img {
+        filter: invert(100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 50%;
+    }
+
+    .p-relative
+     {
+        position: relative;
     }
