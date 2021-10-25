@@ -527,6 +527,15 @@ h4 {
     line-height: 30px;
 }
 
+.container-main-footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-main-footer ul li a:hover{
+    text-decoration: underline;
+}
+
 .container-main-footer .clearfix > div {
     float: left;
     width: calc(100% / 5)
