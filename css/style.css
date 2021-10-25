@@ -23,6 +23,7 @@ html {
 
 /* float */
 
+.loghi-fl > div,
 .square,
 .float-l {
     float:left
@@ -137,8 +138,8 @@ html {
     padding:10px
 }
 
-.pad-int-30 {
-    padding:40px
+.pad-int-40 {
+    padding: 40px 80px 40px 40px;
 }
 
 /* img */
@@ -329,132 +330,137 @@ h4 {
     ;
  }
 
-    .bc-lightblue {
-        background-color: #0093ce
-        ;
-    }
+.bc-lightblue {
+    background-color: #0093ce
+    ;
+}
 
-    .bc-tomato {
-        background-color: #ff1c1c
-        ;
-    }
+.bc-tomato {
+    background-color: #ff1c1c
+    ;
+}
 
-    .bc-darkred {
-        background-color: #d5001f
-        ;
-    }
+.bc-darkred {
+    background-color: #d5001f
+    ;
+}
 
-    .bc-azure {
-        background-color: #b4d0e7
-        ;
-    }
+.bc-azure {
+    background-color: #b4d0e7
+    ;
+}
 
-    .bc-darkblue {
-        background-color:#0d2481
-        ;
-    }
+.bc-darkblue {
+    background-color:#0d2481
+    ;
+}
 
-    .bc-yellow {
-        background-color: #ffd830
+.bc-yellow {
+    background-color: #ffd830
 
-        ;
-    }
-
-
-    
-    /* font size e weight */
-
-    .font-s-09 {
-        font-weight: 600;
-        font-size: 0.9em;
-    }
-
-    .mar-bottom-40 ul li {
-        margin-bottom: 20px;
-    }
-
-    /* bar line */
-
-    .bar-20 {
-        width: 20%;
-        border-top: 1px solid black;
-    }
-
-    /* li check-col  */
-
-    .check-col ul li {
-        margin-bottom: 20px;
-    }
-
-    .check-col ul li i{
-        color: #498eff;
-    }
+    ;
+}
 
 
-    /* col bottom */
 
-    .marg-bot-col {
-        margin: 25px ;
-    }
+/* font size e weight */
 
-    .h4-col-bot {
-        margin: 20px 0 30px 0 ;
-        font-size: 1em;
-        font-weight: 800;
-    }
+.font-s-09 {
+    font-weight: 600;
+    font-size: 0.9em;
+}
 
-    .marg-bot-col p {
-        margin-bottom: 30px;
-    }
+.mar-bottom-40 ul li {
+    margin-bottom: 20px;
+}
 
-    /* partner col */
-    .container-main .pad-partner p {
-        line-height: 30px;
-        margin-bottom: 30px;
-    }
+/* bar line */
 
-    .pad-partner {
-        padding: 40px 80px 40px 40px;
-    }
+.bar-20 {
+    width: 20%;
+    border-top: 1px solid lightgray;
+}
 
-    #but-partner {
-        color: black;
-        background-color: white;
-        border: 1px solid black;
-    }
+.bar-10 {
+    width: 10%;
+    border-top: 1px solid lightgray;  
+}
 
-    /* business margin */
+/* li check-col  */
 
-    .marg-bus-center {
-        margin: 50px 50px 0;
-    }   
+.check-col ul li {
+    margin-bottom: 20px;
+}
 
-    /* designit */
+.check-col ul li i{
+    color: #498eff;
+}
 
-    .square {
-        width: 50%;
-        height: 220px;
-    }
 
-    .square-int {
-        background-color: #a2d39b
-        ;
-        width: 100%;
-        height: 100%;
-    }
+/* col bottom */
 
-    .square img {
-        filter: invert(100%);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50% , -50%);
-        width: 50%;
-    }
+.marg-bot-col {
+    margin: 25px ;
+}
 
-    .p-relative
-     {
-        position: relative;
-    }
+.h4-col-bot {
+    margin: 20px 0 30px 0 ;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.marg-bot-col p {
+    margin-bottom: 30px;
+}
+
+/* partner col */
+.container-main .pad-partner p {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.pad-partner {
+    padding: 40px 80px 40px 40px;
+}
+
+#but-partner {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* business margin */
+
+.marg-bus-center {
+    margin: 50px 50px 0;
+}   
+
+/* designit */
+
+.square {
+    width: 50%;
+    height: 220px;
+}
+
+.square-int {
+    background-color: #a2d39b
+    ;
+    width: 100%;
+    height: 100%;
+}
+
+.square img {
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 50%;
+}
+
+.p-relative
+    {
+    position: relative;
+}
 
     
