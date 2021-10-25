@@ -10,6 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -78,6 +80,11 @@ html {
 }
 
 /* margin */
+
+.scroll {
+overflow: auto;
+height: 440px;
+}
 
 .m-auto {
     margin: auto;
