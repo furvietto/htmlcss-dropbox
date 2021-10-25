@@ -10,7 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -22,7 +21,6 @@ html {
 }
 
 /* float */
-
 .loghi-fl > div,
 .square,
 .float-l {
@@ -90,6 +88,10 @@ html {
     height: 100%;
 }
 
+.mar-l-240 {
+    margin-left: 240px;
+}
+
 .mar-button-hd {
     margin: 30px 0 10px 0;
 }
@@ -113,6 +115,10 @@ html {
 
 .mar-bottom-40 {
     margin-bottom: 40px;
+}
+
+.mar-bottom-50 {
+    margin-bottom: 50px;
 }
 
 .mar-top-20 {
@@ -151,10 +157,6 @@ html {
 
 .pad-int-40 {
     padding: 40px 80px 40px 40px;
-}
-
-.pad-120 {
-    padding: 120px 0;
 }
 
 /* img */
@@ -253,12 +255,12 @@ h1 {
     margin-bottom: 40px;
 }
 
-h3 {
-    font-size: 1.6em;
-}
-
 h2 {
    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 1.6em;
 }
 
 h4 {
@@ -280,7 +282,11 @@ h4 {
     margin: 100px auto 0px
 }
 
-
+.container-main-bottom {
+    width: 70%;
+    margin: auto;
+    padding: 120px 0;
+}
 
  input {
      margin: 40px 0 20px 0;
@@ -311,7 +317,7 @@ h4 {
  
  .text-col {
      margin: 30px ;
-     height: 1000px;
+     height: 900px;
  }
 
  ul li {
@@ -381,8 +387,6 @@ h4 {
     ;
 }
 
-
-
 /* font size e weight */
 
 .font-s-09 {
@@ -390,8 +394,12 @@ h4 {
     font-size: 0.9em;
 }
 
-.mar-bottom-40 ul li {
-    margin-bottom: 20px;
+#font-s-2 {
+    font-size: 2.2em;
+}
+
+.f-weight-900 {
+    font-weight: 900;
 }
 
 /* bar line */
@@ -407,6 +415,9 @@ h4 {
 }
 
 /* li check-col  */
+.mar-bottom-40 ul li {
+    margin-bottom: 20px;
+}
 
 .check-col ul li {
     margin-bottom: 20px;
@@ -487,6 +498,14 @@ h4 {
     margin :auto;
 }
 
+.border-top {
+    border-top: 1px solid lightgray;
+    line-height: 80px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid lightgray;
+}
 
 
     
