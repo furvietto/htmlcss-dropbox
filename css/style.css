@@ -17,8 +17,13 @@ html {
     display: table;
 }
 
+.fa-ul {
+    margin-left: 20px;
+}
+
 /* float */
 
+.square,
 .float-l {
     float:left
 }
@@ -289,7 +294,7 @@ h4 {
  
  .text-col {
      margin: 30px ;
-     height: 900px;
+     height: 1000px;
  }
 
  ul li {
@@ -299,30 +304,30 @@ h4 {
  
  /* colori */
  
-    .c-grey {
-        color: #657583 ;
-        }
-
-    .c-blue {
-        color: #498eff;
+.c-grey {
+    color: #657583 ;
     }
 
-    .c-white {
-        color: white;
-    }
+.c-blue {
+     color: #498eff;
+}
+
+.c-white {
+    color: white;
+}
 
 
-    /* background-color */
+/* background-color */
 
-    .bc-lightgreen {
-        background-color: #d0e9cd
-        ;
-    }
+.bc-lightgreen {
+     background-color: #d0e9cd
+    ;
+}
 
-    .bc-brown {
-        background-color: #61082b
-        ;
-    }
+.bc-brown {
+    background-color: #61082b
+    ;
+ }
 
     .bc-lightblue {
         background-color: #0093ce
@@ -451,3 +456,5 @@ h4 {
      {
         position: relative;
     }
+
+    
