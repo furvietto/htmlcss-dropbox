@@ -470,6 +470,7 @@ h4 {
 }
 
 /* partner col */
+
 .container-main .pad-partner p {
     line-height: 30px;
     margin-bottom: 30px;
@@ -528,10 +529,11 @@ h4 {
     border-bottom: 1px solid lightgray;
 }
 
+/* hidden container */
+
 .hid-text {
     display: none;
     line-height: 25px;
-    padding-right:120px;
     font-weight: 400;
 }
 
@@ -543,17 +545,20 @@ h4 {
     cursor: pointer;
 }
 
-.cont-hid-text:hover .pippo {
-    display: none;
+.cont-hid-text:hover .icon-visi {
+    visibility: collapse;
+    display: table;
 }
 
-.pippa {
-    display: none;
+.icon-invi {
+    visibility: hidden;
 }
 
-.cont-hid-text:hover .pippa {
-    display: block;
+.cont-hid-text:hover .icon-invi {
+    visibility: visible;
+    margin-left: 240px;
 }
+
 /*footer  */
 
 .container-main-footer ul li {
@@ -577,10 +582,6 @@ h4 {
 .container-main-footer h4 {
     margin-bottom: 20px;
     font-size: 1.5em;
-}
-
-ul li {
-    list-style-type: none;
 }
 
 .vert-align {
