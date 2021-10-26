@@ -10,8 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -228,8 +226,6 @@ button:hover {
 nav div ul li a:hover {
     border-bottom: 2px solid blue;
 }
-
-
 
 /* header */
 
@@ -504,8 +500,7 @@ h4 {
 
 
 .square-int {
-    background-color: #a2d39b
-    ;
+    background-color: #a2d39b;
     width: 100%;
     height: 100%;
 }
@@ -533,6 +528,32 @@ h4 {
     border-bottom: 1px solid lightgray;
 }
 
+.hid-text {
+    display: none;
+    line-height: 25px;
+    padding-right:120px;
+    font-weight: 400;
+}
+
+.cont-hid-text:hover .hid-text{
+    display: block;
+}
+
+.cont-hid-text:hover {
+    cursor: pointer;
+}
+
+.cont-hid-text:hover .pippo {
+    display: none;
+}
+
+.pippa {
+    display: none;
+}
+
+.cont-hid-text:hover .pippa {
+    display: block;
+}
 /*footer  */
 
 .container-main-footer ul li {
@@ -563,14 +584,6 @@ ul li {
 }
 
 .vert-align {
-    vertical-align: -webkit-baseline-middle;
+    vertical-align:-webkit-baseline-middle;
 }
     
-.pippo {
-    display: none;
-    line-height: 25px;
-}
-
-.pippa:hover .pippo{
-    display: block;
-}
