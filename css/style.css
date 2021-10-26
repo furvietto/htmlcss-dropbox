@@ -81,9 +81,13 @@ html {
 
 /* margin */
 
-.scroll {
-overflow: auto;
-height: 440px;
+.overflow {
+    overflow: auto;
+}
+
+.h-440 {
+    overflow: auto;
+    height: 440px;
 }
 
 .m-auto {
@@ -498,6 +502,7 @@ h4 {
     height: 220px;
 }
 
+
 .square-int {
     background-color: #a2d39b
     ;
@@ -561,3 +566,11 @@ ul li {
     vertical-align: -webkit-baseline-middle;
 }
     
+.pippo {
+    display: none;
+    line-height: 25px;
+}
+
+.pippa:hover .pippo{
+    display: block;
+}
