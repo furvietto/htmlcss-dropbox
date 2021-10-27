@@ -8,6 +8,8 @@ html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
+    font-size: 0.9em;
+    font-weight: 600;
 }
 
 .clearfix::after {
@@ -81,10 +83,6 @@ html {
 .h-440 {
     overflow: auto;
     height: 440px;
-}
-
-.h-650 {
-    height: 650px;
 }
 
 /* margin */
@@ -234,9 +232,10 @@ nav div ul li a:hover {
 
 /* header */
 
-header {
-    height: 700px;
-}
+ .relativo {
+    position: relative;
+    top: 30px;
+ } 
 
 .hide-container {
     width: 80%;
@@ -252,6 +251,7 @@ header {
 
 .col-sx-hd {
     padding-right: 117px;
+    padding-top: 30px;
 }
 
 .hd-button {
